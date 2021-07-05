@@ -1,4 +1,5 @@
-# diablo3
+# Diablo 3 Profile Viewer - David Hormiga Afonso
+# Link https://diablo-3-profile-viewer.netlify.app/#/
 
 ## Project setup
 ```
