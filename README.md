@@ -1,6 +1,8 @@
 # Diablo 3 Profile Viewer - David Hormiga Afonso
-# Link https://diablo-3-profile-viewer.netlify.app/#/
-
+## Link https://diablo-3-profile-viewer.netlify.app/#/
+```
+I've created this web following a Platzi Course. I used Vue, Stylus, Boostrap, Netlify and it was so funny and useful to make this website.
+```
 ## Project setup
 ```
 npm install
