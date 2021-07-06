@@ -21,6 +21,8 @@
   <li><strong>Region default:</strong> EU</li>
 </ul>
   <br/>
+  <h3>⚠Caution - Possible item image bug🐛</h3>
+  <p>Open an item image, like this one <a href=https://media.blizzard.com/d3/icons/items/large/unique_helm_set_14_x1_demonhunter_male.png>https://media.blizzard.com/d3/icons/items/large/unique_helm_set_14_x1_demonhunter_male.png</a> with https, accept it. Then, reload your page.</p>
 <a href="https://diablo-3-profile-viewer.netlify.app/#/" target="_blank"><img src="https://repository-images.githubusercontent.com/383039158/62718c00-ddc0-11eb-81de-5ebd290c3cde"></a>
 
 <h2>Installation 🛠</h2>
