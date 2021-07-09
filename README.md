@@ -11,9 +11,9 @@
 
 <h2>Try it here! 🧾</h2>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/12b0d818-0acc-4737-a7e1-5b1b92ca60e6/deploy-status)](https://app.netlify.com/sites/vuedex-dha/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12b0d818-0acc-4737-a7e1-5b1b92ca60e6/deploy-status)](https://app.netlify.com/sites/diablo-3-profile-viewer/deploys)
 [![License](https://img.shields.io/github/license/David-H-Afonso/vuedex?color=blue)](./LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/vuedex)
+![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/diablo-3-profile-viewer)
 
 <p>👉🏻 https://diablo-3-profile-viewer.netlify.app/#/</p>
 <ul>
