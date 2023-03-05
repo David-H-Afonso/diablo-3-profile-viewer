@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 import * as oauth from '@/api/oauth'
 
 export default {
@@ -6,19 +7,20 @@ export default {
     accessToken: null
   },
   mutations: {
-    SET_ACCESS_TOKEN (state, payload) {
+    SET_ACCESS_TOKEN(state, payload) {
       state.accessToken = payload
     }
   },
   actions: {
-    getToken ({ commit }) {
+    getToken({ commit }) {
       commit('loading/SET_LOADING', true, { root: true })
 
-      oauth.getToken()
+      oauth
+        .getToken()
         .then(({ data }) => {
           commit('SET_ACCESS_TOKEN', data.access_token)
         })
-        .catch((err) => {
+        .catch(err => {
           commit('SET_ACCESS_TOKEN', null)
           console.log('Error OAuth: ', err)
         })

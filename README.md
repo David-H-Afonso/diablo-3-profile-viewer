@@ -17,7 +17,7 @@
 
 <p>👉🏻 https://diablo-3-profile-viewer.netlify.app/#/</p>
 <ul>
-  <li><strong>User default:</strong> SuperRambo#2613</li>
+  <li><strong>User default:</strong> Jokefish#2265</li>
   <li><strong>Region default:</strong> EU</li>
 </ul>
   <br/>
@@ -28,10 +28,11 @@
 <h2>Installation 🛠</h2>
 <h3>Project setup</h3>
 <code>
-npm install 
+npm install
 
 npm run serve
 </code>
+
 <h3>Compiles and minifies for production</h3>
 <code>
 npm run build

@@ -1,16 +1,20 @@
+/* eslint-disable space-before-function-paren */
 // Traemos el método post de 'axios'
 import { post } from 'axios'
+require('dotenv').config()
 
 // Cogemos los datos de nuestra cuenta de Blizzard
 const clientId = process.env.VUE_APP_CLIENT_ID
 const clientSecret = process.env.VUE_APP_CLIENT_SECRET
+
+console.log('clientId =>', clientId)
 
 // API URL para hacer oauth
 const region = 'eu'
 const API_URL = `https://${region}.battle.net/oauth/token`
 
 // Creamos la función getToken
-function getToken () {
+function getToken() {
   // Creamos un objeto de tipo 'FormData', que es un conjunto de pares clave/valor
   const body = new FormData()
 

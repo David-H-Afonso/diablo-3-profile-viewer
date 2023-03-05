@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 import Vue from 'vue'
 // BootstrapVue
 import './plugins/BootstrapVue.js'
@@ -19,12 +20,12 @@ new Vue({
   store,
   methods: {
     // Nuestra función
-    init () {
+    init() {
       store.dispatch('oauth/getToken')
     }
   },
   // Hook created
-  created () {
+  created() {
     this.init()
   },
   render: h => h(App)
